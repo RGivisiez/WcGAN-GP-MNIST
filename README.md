@@ -6,9 +6,9 @@
 > 
 >  <a href="https://colab.research.google.com/github/RGivisiez/WcGAN-GP-MNIST/blob/main/WcGAN_GP_(MNIST).ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-The main objective here is to train a conditional GAN and use its generator to create images. Since GANs require a lot of computational resources, I will restrict the dataset size and the number of classes used. My main objective is to see the entire process of training a GAN.
+The main objective here is to train a conditional GAN and use its generator to create images. Since GANs require a lot of computational resources, the dataset size and the number of classes used will be restricted. My main objective is to see the entire process of training a GAN.
 
-To keep track of the training loss and the images generated, I will use the TensorBoard. And to prevent the well know mode collapse, present in a vanilla GAN, it will be used the Wasserstein loss with a gradient penalty (WGAN-GP).
+To keep track of the training loss and the images generated, TensorBoard was used. Moreover, to prevent the well known mode collapse, present in basic GAN implementations, I used the Wasserstein loss with a gradient penalty.
 
 The images below show the results for two different models:
 
